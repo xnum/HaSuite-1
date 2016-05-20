@@ -25,6 +25,7 @@ using System.Text;
 using System.Diagnostics;
 using HaRepackerLib.Controls;
 using System.IO.Pipes;
+using System.Collections;
 
 namespace HaRepacker.GUI
 {
@@ -991,6 +992,76 @@ namespace HaRepacker.GUI
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MainPanel.DoPaste();
+        }
+
+        private void mP3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+
+            DialogResult result = fbd.ShowDialog();
+
+            if (!string.IsNullOrWhiteSpace(fbd.SelectedPath))
+            {
+                string[] files = Directory.GetFiles(fbd.SelectedPath);
+
+                foreach ( string file in files )
+                {
+                    string fileName = Path.GetFileName(file);
+                    string[] fileToken = fileName.Split('.');
+                    /*
+                     * "luminous" "F" "1" "mp3"
+                     */ 
+                    if (fileToken.Length != 4 || fileToken[fileToken.Length - 1] != "mp3")
+                        continue;
+                    if(MainPanel.DataTree.SelectedNode.Tag is WzSubProperty)
+                    {
+                        WzSubProperty node = (WzSubProperty)MainPanel.DataTree.SelectedNode.Tag;
+                        if( node.Name == fileToken[0] ) // "luminous"
+                        {
+                            for( int i = 0 ; i < node.WzProperties.Count ; ++i ) 
+                            {
+                                if (node.WzProperties[i] is WzSubProperty && ((WzSubProperty)node.WzProperties[i]).Name == fileToken[1] )
+                                { // "M" or "F"
+                                    for( int j = 0 ; j < ((WzSubProperty)node.WzProperties[i]).WzProperties.Count ; ++j )
+                                    {
+                                        if( ((WzSoundProperty)((WzSubProperty)node.WzProperties[i]).WzProperties[j]).Name == fileToken[2] )
+                                        {
+                                            Debug.Print(file);
+                                            WzSoundProperty prop = new WzSoundProperty(((WzSoundProperty)((WzSubProperty)node.WzProperties[i]).WzProperties[j]).Name, file);
+                                            IPropertyContainer parent = (IPropertyContainer)(((WzSubProperty)node).WzProperties[i]);
+                                            ((WzSoundProperty)((WzSubProperty)node.WzProperties[i]).WzProperties[j]).ParentImage.Changed = true;
+                                            ((WzSubProperty)node.WzProperties[i]).WzProperties[j] = prop;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        private void findMatchWzProperty(object node, string[] fileToken, string filePath)
+        {
+            if (!(node is WzSubProperty))
+                return;
+            if ( ((WzSubProperty)node).Name != fileToken[0])
+                return;
+            ArrayList leftToken = new ArrayList(fileToken);
+            leftToken.RemoveAt(0);
+            for( int i = 0 ; i < ((WzSubProperty)node).WzProperties.Count ; ++i )
+            {
+                if (((WzSubProperty)node).WzProperties[i] is WzSubProperty)
+                    findMatchWzProperty(((WzSubProperty)node).WzProperties[i], (string[])leftToken.ToArray(typeof(string)), filePath);
+                if (((WzSubProperty)node).WzProperties[i] is WzSoundProperty && ((WzSubProperty)node).WzProperties[i].Name == fileToken[1])
+                {
+                    Debug.Print(filePath);
+                    WzSoundProperty prop = new WzSoundProperty(((WzSoundProperty)((WzSubProperty)node).WzProperties[i]).Name, filePath);
+                    IPropertyContainer parent = (IPropertyContainer)((WzSoundProperty)((WzSubProperty)node).WzProperties[i]).Parent;
+                    ((WzSoundProperty)((WzSubProperty)node).WzProperties[i]).ParentImage.Changed = true;
+                    ((WzSubProperty)node).WzProperties[i] = prop;
+                }
+            }
         }
     }
 }

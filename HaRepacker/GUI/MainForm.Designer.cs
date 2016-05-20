@@ -90,6 +90,7 @@
             this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AbortButton = new System.Windows.Forms.Button();
             this.MainPanel = new HaRepackerLib.Controls.HaRepackerMainPanel();
+            this.mP3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -398,7 +399,8 @@
             // 
             this.importToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.xMLToolStripMenuItem2,
-            this.iMGToolStripMenuItem2});
+            this.iMGToolStripMenuItem2,
+            this.mP3ToolStripMenuItem});
             this.importToolStripMenuItem.Image = global::HaRepacker.Properties.Resources.page_add;
             this.importToolStripMenuItem.Name = "importToolStripMenuItem";
             resources.ApplyResources(this.importToolStripMenuItem, "importToolStripMenuItem");
@@ -529,6 +531,12 @@
             resources.ApplyResources(this.MainPanel, "MainPanel");
             this.MainPanel.Name = "MainPanel";
             // 
+            // mP3ToolStripMenuItem
+            // 
+            this.mP3ToolStripMenuItem.Name = "mP3ToolStripMenuItem";
+            resources.ApplyResources(this.mP3ToolStripMenuItem, "mP3ToolStripMenuItem");
+            this.mP3ToolStripMenuItem.Click += new System.EventHandler(this.mP3ToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -611,6 +619,7 @@
         public System.Windows.Forms.ToolStripMenuItem reloadAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mP3ToolStripMenuItem;
     }
 }
 

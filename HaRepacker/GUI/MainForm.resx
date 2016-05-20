@@ -121,327 +121,86 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
-  </data>
-  <data name="newToolStripMenuItem.Text" xml:space="preserve">
-    <value>New...</value>
-  </data>
-  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
-  </data>
-  <data name="openToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open...</value>
-  </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
-  </data>
-  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save...</value>
-  </data>
-  <data name="unloadAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
-  </data>
-  <data name="unloadAllToolStripMenuItem.Text" xml:space="preserve">
-    <value>Unload All</value>
-  </data>
-  <data name="reloadAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
-  </data>
-  <data name="reloadAllToolStripMenuItem.Text" xml:space="preserve">
-    <value>Reload All</value>
-  </data>
   <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 21</value>
+    <value>39, 21</value>
   </data>
   <data name="fileToolStripMenuItem.Text" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="wzDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzDirectoryToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzDirectory</value>
-  </data>
-  <data name="wzImageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzImageToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzImage</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 6</value>
-  </data>
-  <data name="wzByteFloatPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzByteFloatPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzByteFloatProperty</value>
-  </data>
-  <data name="wzCanvasPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzCanvasPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzCanvasProperty</value>
-  </data>
-  <data name="wzCompressedIntPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzCompressedIntPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzIntProperty</value>
-  </data>
-  <data name="wzConvexPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzConvexPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzConvexProperty</value>
-  </data>
-  <data name="wzDoublePropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzDoublePropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzDoubleProperty</value>
-  </data>
-  <data name="wzNullPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzNullPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzNullProperty</value>
-  </data>
-  <data name="wzSoundPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzSoundPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzSoundProperty</value>
-  </data>
-  <data name="wzStringPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzStringPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzStringProperty</value>
-  </data>
-  <data name="wzSubPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzSubPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzSubProperty</value>
-  </data>
-  <data name="wzUnsignedShortPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzUnsignedShortPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzShortProperty</value>
-  </data>
-  <data name="wzUolPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzUolPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzUolProperty</value>
-  </data>
-  <data name="wzVectorPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="wzVectorPropertyToolStripMenuItem.Text" xml:space="preserve">
-    <value>WzVectorProperty</value>
-  </data>
-  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="addToolStripMenuItem.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="removeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="removeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Remove (Del)</value>
-  </data>
-  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="undoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Undo</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="undoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="redoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Redo</value>
-  </data>
-  <data name="redoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="expandAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="expandAllToolStripMenuItem.Text" xml:space="preserve">
-    <value>Expand All</value>
-  </data>
-  <data name="collapseAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="collapseAllToolStripMenuItem.Text" xml:space="preserve">
-    <value>Collapse All</value>
-  </data>
   <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="editToolStripMenuItem.Text" xml:space="preserve">
     <value>Edit</value>
   </data>
-  <data name="xMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="xMLToolStripMenuItem.Text" xml:space="preserve">
-    <value>Private Server XML</value>
-  </data>
-  <data name="rawDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="rawDataToolStripMenuItem.Text" xml:space="preserve">
-    <value>PNG\MP3</value>
-  </data>
-  <data name="imgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="imgToolStripMenuItem.Text" xml:space="preserve">
-    <value>IMG</value>
-  </data>
   <data name="exportFilesToXMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="exportFilesToXMLToolStripMenuItem.Text" xml:space="preserve">
     <value>Export File(s) to</value>
   </data>
-  <data name="privateServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="privateServerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Private server</value>
-  </data>
-  <data name="classicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="classicToolStripMenuItem.Text" xml:space="preserve">
-    <value>Classic</value>
-  </data>
-  <data name="newToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="newToolStripMenuItem1.Text" xml:space="preserve">
-    <value>New</value>
-  </data>
-  <data name="xMLToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="xMLToolStripMenuItem1.Text" xml:space="preserve">
-    <value>XML</value>
-  </data>
-  <data name="pNGsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="pNGsToolStripMenuItem.Text" xml:space="preserve">
-    <value>PNG\MP3</value>
-  </data>
-  <data name="imgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 22</value>
-  </data>
-  <data name="imgToolStripMenuItem1.Text" xml:space="preserve">
-    <value>IMG</value>
-  </data>
   <data name="exportDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="exportDataToolStripMenuItem.Text" xml:space="preserve">
     <value>Export Selection</value>
   </data>
   <data name="xMLToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="xMLToolStripMenuItem2.Text" xml:space="preserve">
     <value>XML</value>
   </data>
   <data name="iMGToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="iMGToolStripMenuItem2.Text" xml:space="preserve">
     <value>IMG</value>
   </data>
+  <data name="mP3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="mP3ToolStripMenuItem.Text" xml:space="preserve">
+    <value>MP3</value>
+  </data>
   <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="importToolStripMenuItem.Text" xml:space="preserve">
     <value>Import</value>
   </data>
   <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
     <value>Options...</value>
   </data>
   <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="searchToolStripMenuItem.Text" xml:space="preserve">
     <value>Search (Ctrl+F)</value>
   </data>
   <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="copyToolStripMenuItem.Text" xml:space="preserve">
     <value>Copy (Ctrl+C)</value>
   </data>
   <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
     <value>Paste (Ctrl+V)</value>
   </data>
   <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 21</value>
+    <value>51, 21</value>
   </data>
   <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
     <value>Tools</value>
   </data>
-  <data name="renderMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
-  <data name="renderMapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Render Map</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Settings...</value>
-  </data>
-  <data name="zoomTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 8.25pt</value>
-  </data>
-  <data name="zoomTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 21</value>
-  </data>
-  <data name="zoomTextBox.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="fHMappingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="fHMappingToolStripMenuItem.Text" xml:space="preserve">
-    <value>FH Mapping</value>
-  </data>
-  <data name="animateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="animateToolStripMenuItem.Text" xml:space="preserve">
-    <value>Animate</value>
-  </data>
   <data name="extrasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
+    <value>53, 21</value>
   </data>
   <data name="extrasToolStripMenuItem.Text" xml:space="preserve">
     <value>Extras</value>
@@ -452,30 +211,19 @@
   <data name="encryptionBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 21</value>
   </data>
-  <data name="viewHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="viewHelpToolStripMenuItem.Text" xml:space="preserve">
-    <value>View Help</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
-    <value>About HaRepacker</value>
-  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 21</value>
+    <value>47, 21</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
   </data>
   <data name="debugToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 21</value>
+    <value>59, 21</value>
   </data>
   <data name="debugToolStripMenuItem.Text" xml:space="preserve">
     <value>Debug</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="debugToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -503,11 +251,273 @@
   <data name="&gt;&gt;mainMenu.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="newToolStripMenuItem.Text" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save...</value>
+  </data>
+  <data name="unloadAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="unloadAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Unload All</value>
+  </data>
+  <data name="reloadAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="reloadAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reload All</value>
+  </data>
+  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="addToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="wzDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzDirectoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzDirectory</value>
+  </data>
+  <data name="wzImageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzImageToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzImage</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 6</value>
+  </data>
+  <data name="wzByteFloatPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzByteFloatPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzByteFloatProperty</value>
+  </data>
+  <data name="wzCanvasPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzCanvasPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzCanvasProperty</value>
+  </data>
+  <data name="wzCompressedIntPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzCompressedIntPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzIntProperty</value>
+  </data>
+  <data name="wzConvexPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzConvexPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzConvexProperty</value>
+  </data>
+  <data name="wzDoublePropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzDoublePropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzDoubleProperty</value>
+  </data>
+  <data name="wzNullPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzNullPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzNullProperty</value>
+  </data>
+  <data name="wzSoundPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzSoundPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzSoundProperty</value>
+  </data>
+  <data name="wzStringPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzStringPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzStringProperty</value>
+  </data>
+  <data name="wzSubPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzSubPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzSubProperty</value>
+  </data>
+  <data name="wzUnsignedShortPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzUnsignedShortPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzShortProperty</value>
+  </data>
+  <data name="wzUolPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzUolPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzUolProperty</value>
+  </data>
+  <data name="wzVectorPropertyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 22</value>
+  </data>
+  <data name="wzVectorPropertyToolStripMenuItem.Text" xml:space="preserve">
+    <value>WzVectorProperty</value>
+  </data>
+  <data name="removeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="removeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Remove (Del)</value>
+  </data>
+  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="undoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="undoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="redoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="redoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="expandAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="expandAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="collapseAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="collapseAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="xMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="xMLToolStripMenuItem.Text" xml:space="preserve">
+    <value>Private Server XML</value>
+  </data>
+  <data name="rawDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="rawDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>PNG\MP3</value>
+  </data>
+  <data name="imgToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="imgToolStripMenuItem.Text" xml:space="preserve">
+    <value>IMG</value>
+  </data>
+  <data name="xMLToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="xMLToolStripMenuItem1.Text" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="privateServerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="privateServerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Private server</value>
+  </data>
+  <data name="classicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="classicToolStripMenuItem.Text" xml:space="preserve">
+    <value>Classic</value>
+  </data>
+  <data name="newToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="newToolStripMenuItem1.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="pNGsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="pNGsToolStripMenuItem.Text" xml:space="preserve">
+    <value>PNG\MP3</value>
+  </data>
+  <data name="imgToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="imgToolStripMenuItem1.Text" xml:space="preserve">
+    <value>IMG</value>
+  </data>
+  <data name="fHMappingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="fHMappingToolStripMenuItem.Text" xml:space="preserve">
+    <value>FH Mapping</value>
+  </data>
+  <data name="renderMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="renderMapToolStripMenuItem.Text" xml:space="preserve">
+    <value>Render Map</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings...</value>
+  </data>
+  <data name="zoomTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="zoomTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="zoomTextBox.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="animateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="animateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="viewHelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>View Help</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About HaRepacker</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AbortButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="AbortButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 61</value>
+    <value>274, 56</value>
   </data>
   <data name="AbortButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 75</value>
+    <value>113, 69</value>
   </data>
   <data name="AbortButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -530,7 +540,6 @@
   <data name="&gt;&gt;AbortButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MainPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -538,7 +547,7 @@
     <value>0, 25</value>
   </data>
   <data name="MainPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>683, 344</value>
+    <value>683, 316</value>
   </data>
   <data name="MainPanel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -559,10 +568,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>683, 369</value>
+    <value>683, 341</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2964,6 +2973,9 @@
         +B8AAA==
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>HaRepacker</value>
   </data>
@@ -3313,6 +3325,12 @@
     <value>debugToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;debugToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mP3ToolStripMenuItem.Name" xml:space="preserve">
+    <value>mP3ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mP3ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
